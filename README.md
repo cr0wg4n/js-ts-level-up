@@ -7,6 +7,7 @@ whenever you want, but I'm using Bun to test some new features. Click
 [here](https://bun.sh/) to download bun. 
 
 ## Content 
-* Functional programming with JS
+* Functional programming
+  * Monoids, Here is a cool material about it: [youtube video](https://www.youtube.com/watch?v=C2w45qRc3aU)
 
 > Disclaimer: This guide will be used to advance my career at my actual company
