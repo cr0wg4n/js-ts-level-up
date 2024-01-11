@@ -26,10 +26,16 @@ const Min = {
   concat: (a, b) => Math.min(a, b) 
 }
 
+const toUpperCase = x =>  x.toUpperCase() 
+const exclaim = x => x.concat('!')
+
+
 export {
+  toUpperCase,
+  exclaim,
+  Fold,
   Sum,
   Product,
-  Fold,
   Max,
   Min
 }

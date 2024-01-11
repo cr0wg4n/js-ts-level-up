@@ -1,4 +1,4 @@
-import { Fold, Max, Min, Product, Sum} from './lib'
+import { Fold, Max, Min, Product, Sum, exclaim, toUpperCase} from './lib'
 
 const sumOfAll = [1,2,3,4,5].reduce(Sum.concat, Sum.empty())
 console.log('sum all alternative way: ', sumOfAll);
@@ -18,3 +18,13 @@ console.log('min:', minValue)
 
 const minValueAlternative = [0, 1,2,3,4,5].reduce(Min.concat, Min.empty())
 console.log('min alternative way, value:', minValueAlternative)
+
+const Fn = run => ({
+  run,
+  map: f => Fn(x => f(run(x))),
+  concat: other => 
+    Fn(x => run(x).concat(other.run(x)))
+})
+
+const res = Fn(toUpperCase).concat(Fn(exclaim)).run('fp sux')
+console.log(res)

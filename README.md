@@ -9,5 +9,10 @@ whenever you want, but I'm using Bun to test some new features. Click
 ## Content 
 * Functional programming
   * Monoids, Here is a cool material about it: [youtube video](https://www.youtube.com/watch?v=C2w45qRc3aU)
+  * Crazy article about functional programming and composition, [article link](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)
 
+## Crazy quotes
+
+Less code = less surface area for bugs = fewer bugs
+The essence of software development is composition
 > Disclaimer: This guide will be used to advance my career at my actual company
