@@ -1,10 +1,19 @@
-// Data transfomation
-const pipe = (...functions) => x => functions.reduce((value, func) => func(value), x)  
-const compose = (...functions) => x => functions.reduceRight((value, func) => func(value) ,x) 
+import { pipe, compose } from '.'
 
+// Data transfomation
 const duplicate = (value) => 2 * value
 const multiplyBy = (n) => (value) => n * value
+const divideBy =  (n) => (value) => value / n
 
 
-const result = pipe(duplicate, multiplyBy(2.65))(1000)
+// You can intercept functions with a logger wrapper
+const logger = (funct) => {
+    return value =>  {
+        console.log('value input:', value)
+        return funct(value)
+    }
+}
+
+
+const result = pipe(logger(duplicate), logger(multiplyBy(2.65)), logger(divideBy(1.25)))(23)
 console.log(result)

@@ -1,5 +1,5 @@
-const pipe = (...funcs) => x => funcs.reduce((v, f) => f(v), x)
-const compose = (...funcs) => x => funcs.reduceRight((v, f) => f(v), x)
+const pipe = (...functions) => x => functions.reduce((value, func) => func(value), x)  
+const compose = (...functions) => x => functions.reduceRight((value, func) => func(value) ,x) 
 
 const repeat = value => `${value} ${value}`
 const capitalize = value => value[0].toUpperCase() + value.substring(1)
@@ -14,3 +14,4 @@ console.log(result);
 console.log(resultPipe);
 console.log(resultCompose);
 
+export{ pipe, compose }
