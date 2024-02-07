@@ -31,24 +31,38 @@ whenever you want, but I'm using Bun to test some new features. Click
 
 #### Packaging and Bundling
 
-#### Unit/e2e testing
+#### Unit/e2e Testing
 
-#### Linting, formatting and git hooks
+#### Linting, Formatting 
 
 #### Rendering, multiple mechanisms and alternatives 
 
 #### MicroFrontends 
 
+#### Miscellaneous 
+##### Branching models
+##### Git hooks
 
 
 ## Crazy quotes
 
-Less code = less surface area for bugs = fewer bugs
+> Less code = less surface area for bugs = fewer bugs
 
-The essence of software development is composition
-
-
+> The essence of software development is composition
 
 
 
+
+## Resources 
+* https://github.com/mbeaudru/modern-js-cheatsheet
+* https://github.com/leonardomso/33-js-concepts
+* https://github.com/verekia/js-stack-from-scratch
+* https://github.com/elsewhencode/project-guidelines
+* https://github.com/goldbergyoni/nodebestpractices
+* https://github.com/sudheerj/javascript-interview-questions
+
+
+---------------------------
+
+Feel free to reach me if you like to talk about these topics, just found me as cr0wg4n in Telegram.
 > Disclaimer: This guide will be used to advance my career at my actual company
