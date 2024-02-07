@@ -1,4 +1,4 @@
-import { pipe, compose } from '.'
+import { compose, pipe } from '.'
 
 // Data transfomation
 const duplicate = (value) => 2 * value
@@ -14,6 +14,18 @@ const logger = (funct) => {
     }
 }
 
+const loggerPipe = x => {
+    console.log('loggerrrrr: ', x)
+    return x
+}
 
-const result = pipe(logger(duplicate), logger(multiplyBy(2.65)), logger(divideBy(1.25)))(23)
+
+const result = pipe(
+    logger(duplicate), 
+    loggerPipe,
+    logger(multiplyBy(2.65)), 
+    loggerPipe,
+    logger(divideBy(1.25))
+)(23)
+
 console.log(result)
