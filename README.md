@@ -19,17 +19,26 @@ whenever you want, but I'm using Bun to test some new features. Click
 
 #### Good Practices
 
+#### Reactivity and State management
+
+#### Web API
+
 #### Typescript 
+
+#### Semantic RESTful API
 
 #### Semantic Release
 
-#### Bundling
+#### Packaging and Bundling
 
-#### Unit testing
+#### Unit/e2e testing
 
-#### e2e testing
+#### Linting, formatting and git hooks
 
-#### Linting, formating and git hooks
+#### Rendering, multiple mechanisms and alternatives 
+
+#### MicroFrontends 
+
 
 
 ## Crazy quotes
