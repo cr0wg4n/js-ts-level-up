@@ -15,6 +15,16 @@ whenever you want, but I'm using Bun to test some new features. Click
   * Password Generator
 
 
+#### Packaging and Bundling
+To check some examples working with Vite, Rollup, and Webpack, please navigate to the `bundling` directory in this project.
+
+The main purpose of this section is to analyze the final result of the entire process of building and bundling in those bundlers.
+
+Resources: 
+* A funny video about it: [link](https://www.youtube.com/watch?v=iOYO2dKBYow) 
+(this guy is hilarious! Please subscribe to his channel)
+
+
 ### Software Engineering 
 
 #### Good Practices
@@ -28,8 +38,6 @@ whenever you want, but I'm using Bun to test some new features. Click
 #### Semantic RESTful API
 
 #### Semantic Release
-
-#### Packaging and Bundling
 
 #### Unit/e2e Testing
 
