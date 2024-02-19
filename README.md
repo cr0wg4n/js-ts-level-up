@@ -21,9 +21,9 @@ To check some examples working with Vite, Rollup, and Webpack, please navigate t
 The main purpose of this section is to analyze the final result of the entire process of building and bundling in those bundlers.
 
 Resources: 
-* A funny video about it: [link](https://www.youtube.com/watch?v=iOYO2dKBYow) 
-(this guy is hilarious! Please subscribe to his channel)
-* A great video about moderm web development, building and bundling: https://www.youtube.com/watch?v=QliwSwWHJoQ
+  * A funny video about it: [link](https://www.youtube.com/watch?v=iOYO2dKBYow) 
+  (this guy is hilarious! Please subscribe to his channel)
+  * A great video about moderm web development, building and bundling: https://www.youtube.com/watch?v=QliwSwWHJoQ
 
 
 
